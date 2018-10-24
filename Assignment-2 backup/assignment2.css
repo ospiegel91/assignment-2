@@ -172,7 +172,7 @@ body{
 }
 
 .jumbo-text-container {
-    padding-left: 10%;
+    padding-left: 150px;
     width: 75%;
 }
 
@@ -191,7 +191,7 @@ body{
         z-index: 4;
     }
     .unit-of-ddgMktgImg h4{
-        font-size: 1em;
+        font-size: 20px;
         margin-bottom: 8px;
         text-align: left;
     }
@@ -213,12 +213,5 @@ body{
     .three{
         height: 1200px;
     
-    }
-
-    .call-to-action{
-        font-size: 1em;
-    }
-    .search-bar-container{
-        margin: 0px 5%;
     }
 }

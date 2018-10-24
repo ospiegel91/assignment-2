@@ -1,0 +1,83 @@
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border  {
+    border: 1px solid #ef9a9a;
+}
+
+.text-below-search-bar-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.long-search-bar{
+    width:500px;
+}
+
+.flex-dir-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+.searchSign{
+    font-size: 28px;
+    padding: 2px;
+    border: 1px solid #ef9a9a;
+    border-left: none;
+    color: #ef9a9a;
+    cursor: pointer;
+}
+
+.stripe{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 640px;
+}
+
+.main{
+    margin-top: 124px;
+    
+}
+
+.bottom-arrow-container{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-arrow-img{
+    height: 50px;
+}
+
+.text-below-search-bar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.promo-text{
+    transition: 3s;
+    
+}
+
+.promo-text:hover{
+    color: white;
+}
+/* ido */
+.row.section2 {
+    display: flex;
+    justify-content: space-around;
+}
+.row.section2 img {
+    height: 200px;
+}
+.col-md-3.alignit {
+    text-align: justify;
+}
