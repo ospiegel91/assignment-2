@@ -1,0 +1,19 @@
+.container {
+    width: 800px;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    background-color: red;
+    transition: 2s;
+    color: black;
+    height: 600px;
+}
+
+.box:hover {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    
+}

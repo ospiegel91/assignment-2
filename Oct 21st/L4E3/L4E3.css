@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    height: 80px;
+    background-color: aqua;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.sideMenu{
+    width: 170px;
+    margin: 15px;
+    background-color: red;
+}
+
+.middleContent{
+    width: calc(100% - 230px);
+    margin: 15px;
+    background-color: green;
+}
+
+.bottom{
+    height: 80px;
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 850px){
+    .sideMenu{
+        display: none;
+    }
+
+    .middleContent{
+        width: 100%;
+    }
+}

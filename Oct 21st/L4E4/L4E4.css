@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav ul li{
+    list-style: none;
+    vertical-align: middle;
+    margin-left: 28px;
+    font-family: "PT Sans";
+}
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.itcLogoImg{
+    height: 35px;
+    margin-top: 7.5px;
+}
+
+.about{
+    margin-left: 380px;
+}
+
+.iconLi{
+    color:#38abd8;
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+@media only screen  and (max-width: 850px) {
+    .textLi{
+        display:none;
+    }
+    .iconLi{
+        display:none;
+    }
+
+    .hamburger{
+        display: block;
+        width: 35px;
+        height: 35px;
+        background-color: #38abd8;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .ham{
+        height: 2px;
+        width: 20px;
+        background-color: white;
+        margin-top: 2px;
+        transform: translateX(35%);
+    }
+}

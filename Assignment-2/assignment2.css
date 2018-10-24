@@ -1,0 +1,217 @@
+body{
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif; 
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border  {
+    border: 1px solid black;
+}
+
+.text-below-search-bar-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.long-search-bar{
+    width:500px;
+}
+
+.flex-dir-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-container{
+    display:flex;
+    justify-content: center;
+}
+.searchSign{
+    font-size: 28px;
+    padding: 2px;
+    border: 1px solid black;
+    border-left: none;
+    color: black;
+    cursor: pointer;
+}
+
+.stripe{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    height: 640px;
+    flex-direction: column;
+    
+}
+
+.main{
+    margin-top: 124px;
+    
+}
+
+.bottom-arrow-container{
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-arrow-img{
+    height: 50px;
+}
+
+.text-below-search-bar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.promo-text{
+    transition: 1.5s;
+    font-size: 16px;
+    
+    
+}
+
+.two{
+    background-color: black;
+}
+.promo-text:hover{
+    color: white;
+}
+
+.block-of-ddgMktgImgs{
+    margin-bottom: 15px;
+    padding: 0px 16px;
+   
+}
+.unit-of-ddgMktgImg{
+    height: 350px;
+    padding: 5px;
+    border: thick solid #808080;
+    border-radius: 12px;
+    background-image: linear-gradient(to top right, #ECECEC , white);
+}
+
+.unit-of-ddgMktgImg h4{
+    margin-left: 18px;
+    margin-right: 5px;
+    margin-bottom: 120px;
+    color: black;
+    font-size: 26px;
+    font-weight:normal;
+    text-align: center;
+    position: relative;
+    
+}
+
+.ddgMktgImgs{
+    height: 86px;
+    position: absolute;
+
+}
+
+
+.call-to-action{
+    margin-top: 30px;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 15px;
+    left: auto;
+    right: auto;
+    border: thin solid red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.25s;
+    height: 60px;
+    cursor: pointer;
+    color: red;
+}
+.call-to-action p{
+    transform: translateY(30%);
+}
+
+.call-to-action:hover{
+    transition-timing-function: ease-out;
+    color: white;
+    background-color: black;
+    border: thin solid black;
+}
+.call-to-action:hover .tiny-logo{
+    display: none;
+}
+
+
+.tiny-logo{
+    height: 40px;
+    margin-left: 20px;
+}
+
+/* ido */
+
+.row.section3 img {
+    height: 200px;
+}
+.col-md-3.alignit {
+    text-align: justify;
+}
+
+.section3-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+}
+
+.jumbo-text-container {
+    padding-left: 150px;
+    width: 75%;
+}
+
+.jumbo-text-container h1{
+    font-size: 40px;
+}
+
+.last{
+    height:400px;
+}
+
+
+@media only screen and (max-width : 925px){
+    .ddgMktgImgs{
+        height: 40px;
+        z-index: 4;
+    }
+    .unit-of-ddgMktgImg h4{
+        font-size: 20px;
+        margin-bottom: 8px;
+        text-align: left;
+    }
+
+    .unit-of-ddgMktgImg{
+        height: 90px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        
+        
+    }
+
+    .ddgMktgImgs{
+
+        right: 10%;
+    }
+    .three{
+        height: 1200px;
+    
+    }
+}
